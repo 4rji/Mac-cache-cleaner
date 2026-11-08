@@ -15,6 +15,13 @@ targets:
       - Sources/LibraryCleaner
     info:
       path: Sources/LibraryCleaner/Info.plist
+      properties:
+        CFBundleDisplayName: Library Cleanup
+        LSApplicationCategoryType: public.app-category.utilities
+        LSMinimumSystemVersion: $(MACOSX_DEPLOYMENT_TARGET)
+        NSHighResolutionCapable: true
+        NSPrincipalClass: NSApplication
+        NSHumanReadableCopyright: ""
     settings:
       base:
         PRODUCT_NAME: "Library Cleanup"

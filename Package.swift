@@ -7,7 +7,8 @@ let package = Package(
     targets: [
         .executableTarget(
             name: "LibraryCleaner",
-            path: "Sources/LibraryCleaner"
+            path: "Sources/LibraryCleaner",
+            exclude: ["Info.plist", "Assets.xcassets"]
         )
     ]
 )
